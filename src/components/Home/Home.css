@@ -1,0 +1,135 @@
+.mytitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+.title{
+    font-size: 7em;
+    color:#7B2869;
+}
+.desc{
+    margin-left: 7em;
+    margin-right: 7em;
+    text-align: center;
+    margin-top: -3.7em;
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+}
+.btn{
+    border-style: solid;
+    margin-top: 2em;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: #7B2869;
+    color: white;
+    border-color: #7B2869;
+}
+.btn:hover{
+    background-color: white;
+    color: #7B2869;
+    border-color: #7B2869;
+    cursor: pointer;
+}
+.label{
+    background-color: transparent;
+    font-size: 2em;
+    margin: 1em;
+}
+.topic{
+    background-color: transparent;
+    font-size: 1.5em;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: #7b28698f;
+    color: #7b286950;
+}
+.container{
+    margin-top: 13em;
+    margin-left: 5em;
+    margin-right: 5em;
+    height: 85vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+textarea{
+    padding: 0.2em;
+    width:90%;
+    height: 80%;
+}
+textarea:focus{
+    outline-color: #7B2869;
+}
+.input1{
+    width:90%;
+    height: 80%;
+}
+.btn1{
+    margin-left: 1.5em;
+    border-style: solid;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: #7B2869;
+    color: white;
+    border-color: #7B2869;
+}
+.btn1:hover{
+    background-color: white;
+    color: #7B2869;
+    border-color: #7B2869;
+    cursor: pointer;
+}
+.labe2{
+    background-color: transparent;
+    font-size: 2em;
+    margin: 3em;
+}
+.content{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.questions{
+    margin-left: 4em;
+    align-items: left;
+}
+.result{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    
+}
+.btn2{
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-style: solid;
+    font-weight: 600;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: #7B2869;
+    color: white;
+    border-color: #7B2869;
+}
+.btn2:hover{
+    background-color: white;
+    color: #7B2869;
+    border-color: #7B2869;
+    cursor: pointer;
+}
+.myscore{
+    margin-left: -2em;
+}
