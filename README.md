@@ -22,9 +22,7 @@ The page will reload when you make changes.\
 You may also see any errors in the console.
 
 ## App Preview
-
-<img width="944" alt="1" src="https://user-images.githubusercontent.com/83918978/224782572-14114628-c37a-44eb-83ac-f1dd67b800cf.png">
-<img width="947" alt="2" src="https://user-images.githubusercontent.com/83918978/224782544-ca684fc4-5b8f-45c8-8b19-ad2202e6875c.png">
-<img width="932" alt="3" src="https://user-images.githubusercontent.com/83918978/224782556-ff97dd4b-2b16-4e1f-aea6-689ddaff3ba8.png">
-<img width="943" alt="4" src="https://user-images.githubusercontent.com/83918978/224782565-b557d400-0b87-4113-9170-e794a201e886.png">
-<img width="941" alt="5" src="https://user-images.githubusercontent.com/83918978/224782568-3d68fc34-0518-4b0e-bd3c-4a623af47f25.png">
+<img width="959" alt="1" src="https://user-images.githubusercontent.com/83918978/227025484-89a3bb3e-4331-4f90-bca1-ed3cf0c390bd.png">
+<img width="960" alt="2" src="https://user-images.githubusercontent.com/83918978/227025508-b704cc9b-b94a-4ab7-ae49-830c3c04bc66.png">
+<img width="960" alt="3" src="https://user-images.githubusercontent.com/83918978/227025525-59cee3b8-89b2-4788-b8ca-121103c54d05.png">
+<img width="960" alt="4" src="https://user-images.githubusercontent.com/83918978/227025535-06eecdc8-c222-41b9-a9dc-171416ba4e01.png">
