@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins&display=swap');
-*{
-  font-family: 'Manrope', sans-serif;
-  background-color: white;
-  color: #7B2869;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@400;500&display=swap');
+*{  font-family: 'Inter', sans-serif; 
+    
 }
+
 .App{
+  background-color: #050B28;
   display: flex;
   flex-direction: column;
 }

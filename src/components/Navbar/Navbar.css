@@ -1,10 +1,10 @@
 .navbar{
+    background-color: #050B28;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
-    color: #fff;
+    color:#E6E6E6;
     margin-bottom: 0.2em;
     display: flex;
     flex-direction: row;
@@ -18,21 +18,26 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: transparent;
 }
 .item{
+    color:#E6E6E6;
+    font-weight: 800;
     margin-top: 0.3em;
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding: 0.4em;
-    font-size: 1.3em;
+    font-size: 1.7em;
     margin-left: 0.1em;
-    background-color: white;
+    background-color: transparent;
 }
 .i{
-    background-color: white;
+    background-color: transparent;
 }
 .i:hover{
-    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.3em;
     cursor: pointer;
 }

@@ -5,6 +5,8 @@ import { useState, useEffect } from 'react'
 import { Configuration, OpenAIApi } from "openai";
 import { Grid } from "react-loader-spinner"
 import Question from '../Question/Question';
+import wizard from '../../assets/wizard.png';
+import z from '../../assets/z.png';
 
 
 function Home() {
@@ -26,10 +28,10 @@ function Home() {
     setScore(0);
     setLoading(true);
     const configuration = new Configuration({
-      organization: meta.env.ORG,
-      apiKey: meta.env.API_KEY,
+      organization: "org-Rm0qdn9Qbh5zlQp9JpVZpTUU",
+      apiKey: "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",
      });
-    const key =  meta.env.API_KEY;
+    const key = "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";
     const openai = new OpenAIApi(configuration);
     const response = await fetch("https://api.openai.com/v1/completions", {
         method: "POST",
@@ -69,10 +71,17 @@ function Home() {
 
   return (
     <div id='home' >
+      <div className='z'>
       <div className='mytitle'>
-        <h1 className="title">QuizWiz</h1>
-        <p className="desc">QuizWiz is a versatile quiz app that allows users to create customized quizzes on any topic or text of your choice. With QuizWiz, users can create engaging and interactive quizzes that test the knowledge of their audience.Try it out today and see for yourself!</p>
-        <Link to="questions" spy={true} offset={-140} duration={5000} className="btn">Let's Get Started</Link>
+        <div className='zpng'>
+        <h1 className="title">QuizWhi </h1><img src={z} className='zimg' alt="z" />
+        </div>
+        <p className="desc">QuizWiz is a versatile quiz app that allows users to create customized quizzes on any topic or text of your choice.Try it out today and see for yourself!</p>
+        <Link to="questions" spy={true} offset={-140} duration={5000} className="btn">Get Started</Link>
+      </div>
+      <div >
+        <img className='img' src={wizard} alt="wizard"  />
+      </div>
       </div>
       <div className='container'>
         <h2 className="label">Enter the text:</h2>
@@ -82,7 +91,7 @@ function Home() {
         </form>
       </div>
       <div className='content'>
-         <h2 className="label2">{loading ? <Grid color="#7B2869" />: questions && (
+         <h2 className="label2">{loading ? <Grid color="#DEBC09" />: questions && (
          
          <div className='questions'>
             <h1> QUESTIONS </h1> 

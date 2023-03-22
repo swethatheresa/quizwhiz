@@ -1,41 +1,65 @@
 .mytitle{
+    margin-left: 6.5em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin-top: 5em;
+    color: #E6E6E6;
+}
+.zpng{
+    display:flex;
+    flex-direction: row;
+}
+.zimg{
+    height:15vh;
+    margin-top: 4em;
 }
 .title{
-    font-size: 7em;
-    color:#7B2869;
+    font-size: 5em;
+    font-weight: 800;
+    color: #E6E6E6;
+}
+.z{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    margin-top: 5em;
+    height: 60vh;
+    margin-right: 6em;
 }
 .desc{
-    margin-left: 7em;
-    margin-right: 7em;
-    text-align: center;
-    margin-top: -3.7em;
-    font-size: 1em;
-    font-weight: 500;
-    color: black;
+    margin-right: 9em;
+    color: #E6E6E6;
+    margin-top: -1em;
+    font-size: 1.2em;
+    font-weight: 400;
+    
 }
 .btn{
+    text-align: center;
+    width: 160px;
     border-style: solid;
     margin-top: 2em;
-    font-size: 1em;
-    font-weight: 600;
-    padding: 0.5em;
-    border-radius: 1em;
-    background-color: #7B2869;
-    color: white;
-    border-color: #7B2869;
+    font-size: 1.3em;
+    font-weight: 800;
+    padding: 0.4em;
+    border-radius: 0.5em;
+    background-color:  #DEBC09;
+    color: black;
+    border-color:#DEBC09;
 }
 .btn:hover{
-    background-color: white;
-    color: #7B2869;
-    border-color: #7B2869;
+    transition: 0.3s;
+    background-color: transparent;
+    color: #DEBC09;
+    border-color: #DEBC09;
     cursor: pointer;
 }
 .label{
+    color: #E6E6E6;
     background-color: transparent;
     font-size: 2em;
     margin: 1em;
@@ -47,8 +71,8 @@
     padding: 0.5em;
     border-radius: 0.5em;
     border-style: solid;
-    border-color: #7b28698f;
-    color: #7b286950;
+    border-color: #E6E6E6;
+    color: #E6E6E6;
 }
 .container{
     margin-top: 13em;
@@ -67,27 +91,27 @@ textarea{
     height: 80%;
 }
 textarea:focus{
-    outline-color: #7B2869;
+    outline-color: #E6E6E6;
 }
 .input1{
     width:90%;
-    height: 80%;
+    height: 80%
 }
 .btn1{
     margin-left: 1.5em;
     border-style: solid;
     font-size: 1.2em;
     font-weight: 600;
-    padding: 0.5em;
+    padding: 0.6em;
     border-radius: 1em;
-    background-color: #7B2869;
-    color: white;
-    border-color: #7B2869;
+    background-color: #DEBC09;
+    color: black;
+    border-color: #DEBC09;
 }
 .btn1:hover{
-    background-color: white;
-    color: #7B2869;
-    border-color: #7B2869;
+    background-color: transparent;
+    color: #DEBC09;
+    border-color: #DEBC09;
     cursor: pointer;
 }
 .labe2{
@@ -103,10 +127,12 @@ textarea:focus{
     justify-content: center;
 }
 .questions{
+    color: #DEBC09;
     margin-left: 4em;
     align-items: left;
 }
 .result{
+    color: #DEBC09;
     display: flex;
     flex-direction: row;
     font-size: 1em;
@@ -120,14 +146,14 @@ textarea:focus{
     font-weight: 600;
     padding: 0.5em;
     border-radius: 1em;
-    background-color: #7B2869;
-    color: white;
-    border-color: #7B2869;
+    background-color: #DEBC09;
+    color: black;
+    border-color: #DEBC09;
 }
 .btn2:hover{
-    background-color: white;
-    color: #7B2869;
-    border-color: #7B2869;
+    background-color: transparent;
+    color: #DEBC09;
+    border-color: #DEBC09;
     cursor: pointer;
 }
 .myscore{

@@ -1,6 +1,6 @@
 .que{
-    color: #7B2869;
-    box-shadow: 0 0 5px 0 #7b286961;
+    color: #E6E6E6;
+    box-shadow: 0 0 5px 0 #E6E6E6;
     border-radius: 10px;
     margin-right: 7em;
     margin-top:1em;
@@ -18,7 +18,8 @@
     justify-content: space-between;
 }
 .option{
-    border-color: #7B2869;
+    font-weight: 600;
+    border-color: #E6E6E6;
     border-radius: 0.5em;
     border-style: solid ;
     margin: 0.5em;
@@ -30,12 +31,13 @@
     font-size: 0.8em;
 }
 .option:hover{
-    background-color: #7B2869;
-    color: white;
+    background-color: transparent;
+    border-color: #DEBC09;
+    color: #DEBC09;
     cursor: pointer;
 }
 .correct{
-    border-color:   rgba(0, 128, 0, 0.336);
+    border-color:     #77DD76;
     border-radius: 0.5em;
     border-style: solid ;
     margin: 0.5em;
@@ -45,11 +47,11 @@
     padding-right: 1em;
     align-items: left;
     font-size: 0.8em;
-    background-color: rgba(0, 128, 0, 0.336);
+    background-color:  #77DD76;
     color: white;
 }
 .incorrect{
-    border-color:   rgba(255, 0, 0, 0.336);
+    border-color:   #FF6962;
     border-radius: 0.5em;
     border-style: solid ;
     margin: 0.5em;
@@ -59,6 +61,6 @@
     padding-right: 1em;
     align-items: left;
     font-size: 0.8em;
-    background-color: rgba(255, 0, 0, 0.336);
+    background-color: #FF6962;
     color: white;
 }

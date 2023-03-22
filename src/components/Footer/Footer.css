@@ -3,12 +3,14 @@
     margin-right: -0.5em ;
     margin-bottom: -1em ;
     margin-top: 7em;
-    background-color: #7B2869;
+    background-color: #debb09be;
     padding: 1.4em;
     text-align: center;
   }
 
 .myfooter div{
-    background-color: #7B2869;
-    color: white;
+    background-color: transparent;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
 }
