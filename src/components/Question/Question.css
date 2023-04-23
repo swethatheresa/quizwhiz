@@ -6,6 +6,7 @@
     margin-top:1em;
     margin-bottom: 2em;
     padding: 1em;
+    flex-direction: column;
 }
 .options{
     margin-top: 1em;
@@ -63,4 +64,12 @@
     font-size: 0.8em;
     background-color: #FF6962;
     color: white;
+}
+@media only screen and (max-width: 600px) {
+    .que{
+        margin-right: 0em;
+    }
+    .options{
+        width: 100%;
+    }
 }

@@ -79,7 +79,7 @@ function Home() {
         <p className="desc">QuizWiz is a versatile quiz app that allows users to create customized quizzes on any topic or text of your choice.Try it out today and see for yourself!</p>
         <Link to="questions" spy={true} offset={-140} duration={5000} className="btn">Get Started</Link>
       </div>
-      <div >
+      <div className='wizdiv'>
         <img className='img' src={wizard} alt="wizard"  />
       </div>
       </div>

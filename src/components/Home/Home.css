@@ -159,3 +159,52 @@ textarea:focus{
 .myscore{
     margin-left: -2em;
 }
+
+@media only screen and (max-width: 600px) {
+    .wizdiv{
+        height: 0vh;
+        width: 0vw;
+    }
+    .mytitle{
+        margin-left: 1.5em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+        color: #E6E6E6;
+    } 
+    .zpng{
+        display:flex;
+        flex-direction: row;
+    }
+    .zimg{
+        height:12vh;
+    }
+    .desc{
+        margin-left: 0.7em;
+        margin-right: 0em;
+        width: 75%;
+    } 
+    .img{
+        height: 0vh;
+    }
+    .btn{
+        margin-left: 0.7em;
+    } 
+     .content{
+        width: 100vw;
+    }
+    .questions{
+        margin-left: 2em;
+        
+    } 
+    .container{
+        height: 60vh;
+        width: 100vw;
+        margin-left: 1em;
+    }
+    .topic{
+        width: 100%;
+        margin-right: 0em;
+    }
+
+  }

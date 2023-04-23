@@ -35,8 +35,9 @@
     background-color: transparent;
 }
 .i:hover{
+    transition: 0.3s;
     text-decoration: underline;
-    text-decoration-color: yellow;
+    text-decoration-color: #DEBC09;
     text-decoration-thickness: 0.1em;
     text-underline-offset: 0.3em;
     cursor: pointer;
