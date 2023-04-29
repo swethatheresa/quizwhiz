@@ -1,5 +1,5 @@
-# quizwiz
-QuizWiz is a versatile quiz app that allows users to create customized quizzes on any topic or text of your choice. With QuizWiz, users can create engaging and interactive quizzes that test the knowledge of their audience.Try it out today and see for yourself!
+# QuizWhiz
+QuizWhiz is a versatile quiz app that allows users to create customized quizzes on any topic or text of your choice. With QuizWiz, users can create engaging and interactive quizzes that test the knowledge of their audience.Try it out today and see for yourself!
 
 
 ## How to configure
